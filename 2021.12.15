@@ -1,0 +1,27 @@
+//输出hello！how do you do!
+#include<stdio.h>
+int main()
+{
+	printf("hello!\nhow do you do!");
+	return 0;
+}//输出hello！how do you do!
+#include<stdio.h>
+int main()
+{
+	printf("hello!\nhow do you do!");
+	return 0;
+}
+
+//输入两个整数，求他们的和和积.
+#include<stdio.h>
+int main()
+{
+	int a, b, sum, s;
+	printf("输入两个整数:");
+	scanf_s("%d%d", &a, &b);
+	sum = a + b;
+	s = a * b;
+	printf("sum=%d,s=%d", sum, s);
+	return 0;
+}
+
